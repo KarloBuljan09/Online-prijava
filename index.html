@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Online životopis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Lijeva strana -->
+    <div class="left">
+        <div class="overlay">
+            <h2>Online Zivotopis</h2>
+            <p>Prijava za Web developer / Grafički dizajner</p>
+        </div>
+    </div>
+
+    <!-- Desna strana -->
+    <div class="right">
+        <div class="form-box">
+            <h1>Online životopis</h1>
+
+            <form>
+
+                <!-- Osobni podaci -->
+                <label for="ime">Ime i prezime</label>
+                <input type="text" id="ime" name="ime" placeholder="Unesite ime i prezime">
+
+                <label for="email">Email adresa</label>
+                <input type="email" id="email" name="email" placeholder="ime.prezime@email.com">
+
+                <label for="telefon">Broj telefona</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="+387...">
+
+                <!-- Obrazovanje -->
+                <label for="obrazovanje">Obrazovanje</label>
+                <input type="text" id="obrazovanje" name="obrazovanje" placeholder="Naziv škole / fakulteta">
+
+                <!-- Radno iskustvo -->
+                <label for="iskustvo">Radno iskustvo</label>
+                <select id="iskustvo" name="iskustvo">
+                    <option>Bez iskustva</option>
+                    <option>Manje od 1 godine</option>
+                    <option>1 - 3 godine</option>
+                    <option>3 - 5 godina</option>
+                    <option>Više od 5 godina</option>
+                </select>
+
+                <!-- Vještine -->
+                <label for="vjestine">Vještine</label>
+                <input type="text" id="vjestine" name="vjestine" placeholder="HTML, CSS, JavaScript...">
+
+                <!-- O sebi -->
+                <label for="opis">O meni</label>
+                <input type="text" id="opis" name="opis" placeholder="Kratki opis o sebi">
+
+                <button type="submit">Spremi životopis</button>
+
+            </form>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
